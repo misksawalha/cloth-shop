@@ -1,0 +1,26 @@
+@mixin card-items{
+    border: 1px black solid;
+    display:inline-block;
+    border-radius: 5px;
+}
+@mixin image{
+        border-radius: 5px;
+}
+
+@mixin small-items{
+    display:inline-block
+   
+}
+
+  
+.card-items{
+    @include card-items()
+}
+
+.image{
+    @include image()
+}
+
+.small-items{
+    @include small-items()
+}
