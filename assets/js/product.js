@@ -330,24 +330,24 @@ async function displayProduct(id) {
             <div class="container">
               <div class="accordion">
                 <div class="accordion__item">
-                  <a class="accordion__item__title" href="#item1">
+                  <a class="accordion__item__title" >
                    PRODUCTS DETAILS
                   </a>
                 </div>
                 <div class="accordion__item">
-                  <a class="accordion__item__title" href="#item2">
+                  <a class="accordion__item__title" >
                    FREE SHIPPING IN THE CONTIGUOUS
                   </a>
                  
                 </div>
                 <div class="accordion__item">
-                  <a class="accordion__item__title" href="#item3">
+                  <a class="accordion__item__title" >
                    FREE RETURNS WITHIN 10 DAYS
                   </a>
 
                 </div>
                 <div class="accordion__item">
-                  <a class="accordion__item__title" href="#item4">
+                  <a class="accordion__item__title" >
                     QUALITY CERTIFICATIONS
                   </a>
                 </div>
@@ -385,24 +385,24 @@ async function displayProduct(id) {
                  <div class="container">
                  <div class="accordion">
                    <div class="accordion__item">
-                     <a class="accordion__item__title" href="#item1">
+                     <a class="accordion__item__title" >
                       PRODUCTS DETAILS
                      </a>
                    </div>
                    <div class="accordion__item">
-                     <a class="accordion__item__title" href="#item2">
+                     <a class="accordion__item__title" >
                       FREE SHIPPING IN THE CONTIGUOUS
                      </a>
                     
                    </div>
                    <div class="accordion__item">
-                     <a class="accordion__item__title" href="#item3">
+                     <a class="accordion__item__title" >
                       FREE RETURNS WITHIN 10 DAYS
                      </a>
    
                    </div>
                    <div class="accordion__item">
-                     <a class="accordion__item__title" href="#item4">
+                     <a class="accordion__item__title" >
                        QUALITY CERTIFICATIONS
                      </a>
                    </div>
