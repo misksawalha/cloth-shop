@@ -8,10 +8,17 @@
 }
 
 @mixin small-items{
-    display:inline-blocن
+    display:inline-block
    
 }
-
+.image {
+    border-radius: 5px;
+    margin-bottom: 0;
+    position: static;
+  }
+  .hide{
+    visibility:hidden
+  }
   
 .card-items{
     @include card-items()
@@ -24,3 +31,19 @@
 .small-items{
     @include small-items()
 }
+
+@media only screen and (max-width: 600px) {
+  .small-items {
+    display: inline-block;
+  }
+  .image{
+    height: 50%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .small-items {
+    display: inline;
+  }
+}
+

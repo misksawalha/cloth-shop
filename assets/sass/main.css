@@ -1,35 +1,37 @@
-
-.card-items {
-  border: 1px black solid;
-  display: inline-block;
-  border-radius: 5px;
-  
-}
-
 .image {
   border-radius: 5px;
   margin-bottom: 0;
   position: static;
 }
-.hide{
-  visibility:hidden
+
+.hide {
+  visibility: hidden;
 }
+
+.card-items {
+  border: 1px black solid;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
 .small-items {
   display: inline-block;
-}/*# sourceMappingURL=main.css.map */
-
+}
 
 @media only screen and (max-width: 600px) {
   .small-items {
     display: inline-block;
   }
-  .image{
+  .image {
     height: 50%;
   }
 }
-
 @media only screen and (min-width: 600px) {
   .small-items {
     display: inline;
   }
-}
+}/*# sourceMappingURL=main.css.map */

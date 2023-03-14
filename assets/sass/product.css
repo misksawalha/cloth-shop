@@ -1,0 +1,174 @@
+body {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  border-radius: 5px;
+  margin-bottom: 0;
+  position: static;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.card-items {
+ 
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .small-items {
+    display: inline-block;
+  }
+  .image {
+    height: 50%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .small-items {
+    display: inline;
+  }
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnails img {
+  height: 80px;
+  border: 4px solid #555;
+  padding: 1px;
+  margin: 0 10px 10px 0;
+}
+
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview .images img {
+  border: 4px solid #444;
+  padding: 1px;
+  width: 600px;
+}/*# sourceMappingURL=product.css.map */
+html,
+body {
+  height: 100%;
+}
+.my-form {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  background: linear-gradient(135deg,#f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+}
+.my-form__label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #666666;
+  font-size: 1.25em;
+}
+.my-form__input {
+  color: #666666;
+}
+.myName{
+  background-color: red;
+}
+
+.quantity {
+ display: inline-block;
+  
+ 
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+}
+
+.minus-btn, .plus-btn {
+  font-size: 16px;
+  line-height: 1;
+  padding: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.minus-btn:hover, .plus-btn:hover {
+  background-color: #e6e6e6;
+}
+.cart-btn{
+  background-color: black;
+  color: white;
+  border-radius:3px;
+}
+
+
+
+.accordion__item__title {
+  display: block;
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+  position: relative;
+  width:400px ;
+}
+.accordion__item__title:after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  font-weight: bold;
+}
+.accordion__item:nth-of-type(2n) .accordion__item__title {
+  background: #ddd;
+}
+.accordion__item__content {
+  display: none;
+  padding: 20px;
+}
+.accordion__item__content:target {
+  display: block;
+}
+
+/* Irrelevant styles */
+* {
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+ 
+}
+
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+ 
+  color: #fff;
+  margin: 0;
+  padding: 60px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
